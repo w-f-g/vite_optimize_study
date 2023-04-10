@@ -1,0 +1,17 @@
+#root > main {
+  padding-top: 60px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 300px;
+}
+@media screen and (max-width: 1200px) {
+  #root > main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 750px) {
+  #root > main {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
