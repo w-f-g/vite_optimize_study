@@ -56,6 +56,9 @@
       ],
       "@router/*": [
         "src/router/*"
+      ],
+      "package.json": [
+        "./package.json"
       ]
     }
   },
